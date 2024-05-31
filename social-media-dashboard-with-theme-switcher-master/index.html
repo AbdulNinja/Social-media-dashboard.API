@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Social media dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="dashboard-header">
+        <div class="title">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+        </div>
+        <div class="dark-mode-toggle">
+            <label>
+                Dark Mode
+                <input type="checkbox" id="dark-mode-toggle">
+            </label>
+        </div>
+    </div>
+
+    <div class="followers">
+        <div class="followers-card facebook">
+            <div class="logo">
+              <img src="./images/icon-facebook.svg" alt="facebook">
+            <h2>@ahmed</h2>
+            </div>
+            <p class="followers-count">1987</p>
+            <p>FOLLOWERS</p>
+            <p class="today-change positive">▲ 12 Today</p>
+        </div>
+        <div class="followers-card twitter">
+          <div class="logo">
+            <img src="./images/icon-twitter.svg" alt="">
+            <h2>@ahmed</h2>
+          </div>
+            <p class="followers-count">1044</p>
+            <p>FOLLOWERS</p>
+            <p class="today-change positive">▲ 99 Today</p>
+        </div>
+        <div class="followers-card instagram">
+          <div class="logo">
+            <img src="./images/icon-instagram.svg" alt="">
+            <h2>@realahmedG</h2>
+          </div>
+            <p class="followers-count">11k</p>
+            <p>FOLLOWERS</p>
+            <p class="today-change positive">▲ 1099 Today</p>
+        </div>
+        <div class="followers-card youtube">
+          <div class="logo">
+            <img src="./images/icon-youtube.svg" alt="">
+            <h2>Ahmed.</h2>
+          </div>
+            <p class="followers-count">8239</p>
+            <p>SUBSCRIBERS</p>
+            <p class="today-change negative">▼ 144 Today</p>
+        </div>
+    </div>
+
+    <div class="overview">
+        <h2>Overview - Today</h2>
+        <div class="overview-cards">
+            <div class="overview-card facebook">
+              
+                <div class="section1">
+                  <p>Page Views</p>
+                <img src="./images/icon-facebook.svg" alt="">
+                </div>
+
+                <div class="section2">
+                  <p class="value">87</p>
+                <p class="change positive">▲ 3%</p>
+                </div>
+            </div>
+            <div class="overview-card facebook">
+               <div class="section1">
+                <p>Likes</p>
+                <img src="./images/icon-facebook.svg" alt="">
+               </div>
+                <div class="section2">
+                  <p class="value">52</p>
+                <p class="change negative">▼ 2%</p>
+                </div>
+            </div>
+            <div class="overview-card twitter">
+               <div class="section1">
+                <p>Retweets</p>
+                <img src="./images/icon-twitter.svg" alt="">
+               </div>
+               <div class="section2">
+                <p class="value">117</p>
+                <p class="change positive">▲ 303%</p>
+               </div>
+            </div>
+            <div class="overview-card twitter">
+               <div class="section1">
+                <p>Likes</p>
+                <img src="./images/icon-twitter.svg" alt="">
+               </div>
+               <div class="section2">
+                <p class="value">507</p>
+                <p class="change positive">▲ 553%</p>
+               </div>
+            </div>
+            <div class="overview-card instagram">
+               <div class="section1">
+                <p>Likes</p>
+                <img src="./images/icon-instagram.svg" alt="">
+               </div>
+               <div class="section2">
+                <p class="value">5462</p>
+                <p class="change positive">▲ 2257%</p>
+               </div>
+            </div>
+            <div class="overview-card instagram">
+              <div class="section1">
+                <p>Profile Views</p>
+                <img src="./images/icon-instagram.svg" alt="">
+              </div>
+                <div class="section2">
+                  <p class="value">52k</p>
+                <p class="change positive">▲ 1375%</p>
+                </div>
+            </div>
+            <div class="overview-card youtube">
+              <div class="section1">
+                <p>Likes</p>
+                <img src="./images/icon-youtube.svg" alt="">
+              </div>
+            <div class="section2">
+              <p class="value">107</p>
+              <p class="change negative">▼ 19%</p>
+            </div>
+            </div>
+            <div class="overview-card youtube">
+              <div class="section1">
+                <p>Total Views</p>
+                <img src="./images/icon-youtube.svg" alt="">
+              </div>
+              <div class="section2">
+                <p class="value">1407</p>
+                <p class="change negative">▼ 12%</p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#"> AHMED</a>.
+  </div>
+</body>
+</html>

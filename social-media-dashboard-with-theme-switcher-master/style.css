@@ -1,0 +1,123 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f3f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.dark-mode-toggle {
+    text-align: right;
+    align-self: center;
+    /* margin: 20px; */
+}
+
+.followers, .overview-cards {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.followers-card, .overview-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    /* flex: 2 2 calc(25% - 20px);
+    max-width: calc(25% - 20px); */
+}
+
+.followers-card p, .overview-card p {
+    margin: 5px 0;
+}
+
+.followers-count {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.today-change {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.positive {
+    color: #4caf50;
+}
+
+.negative {
+    color: #f44336;
+}
+
+.facebook {
+    border-top: 4px solid #3b5998;
+}
+
+.twitter {
+    border-top: 4px solid #00aced;
+}
+
+.instagram {
+    border-top: 4px solid #e4405f;
+}
+
+.youtube {
+    border-top: 4px solid #cd201f;
+}
+.overview-card facebook  img {
+    display: flex;
+    justify-self: center;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.section1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
+.section2{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
